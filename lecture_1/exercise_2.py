@@ -14,8 +14,8 @@ else:
             c = True                               #continue the loop if n is divisible by i
 
 if c:                                              #if c is True, it means the number is composite
-    print("The given number is a composite number.")
+    print(f"{n} is a composite number.")
 
 else:                                              #if c is False, it means the number is prime
-    print("The given number is a prime number.")                
+    print(f"{n} is a prime number.")                
 #end of the program
