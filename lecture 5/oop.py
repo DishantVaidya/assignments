@@ -1,13 +1,18 @@
-# Define a class
-class Dog:
-    def __init__(self, name):
-        self.name = name
+# Create a class first
+class student:
+    division= "A"
+    adress = "Mumbhai, India."
 
-    def bark(self):
-        print(f"{self.name} says Woof!")
+#creating an object 1 i.e. a student    
+dishant = student()
+dishant.name = "Dishant"
 
-# Create an object
-my_dog = Dog(input("Enter the dog's name: "))
+#creating an object 2 i.e. another student
+gandharva = student()
+gandharva.name = "Gandharva"
 
-# Call the method
-my_dog.bark()
+#printing student details
+print("Name of the student :",dishant.name,"\n ","class :", dishant.division,", Region :", dishant.adress)
+print("Name of the student :",gandharva.name,"\n ","class :", gandharva.division,", Region :", gandharva.adress)
+
+#end of code
